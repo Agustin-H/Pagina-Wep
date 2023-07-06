@@ -1,4 +1,7 @@
-
+*{
+  margin: 0%;
+  padding: 0%;
+}
 .publicidad{
 justify-self: center;
 padding: 5px;
@@ -49,3 +52,8 @@ h6{
     text-align: center;
     background-color: rgb(243, 242, 242);
   }
+footer{
+  background-color: rgb(206, 99, 255);
+  margin: 0%;
+  padding: 0%;
+}
