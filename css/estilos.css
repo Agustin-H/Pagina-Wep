@@ -2,6 +2,18 @@
   margin: 0%;
   padding: 0%;
 }
+main,header{
+  background-color: rgb(206, 99, 255);
+  margin: 0%;
+  padding: 0%;
+}
+footer{
+  background-color: blueviolet;
+  border-color: rgb(0, 0, 0);
+}
+.button{
+  background-color: blueviolet;
+}
 .publicidad{
 justify-self: center;
 padding: 5px;
@@ -50,10 +62,4 @@ h6{
   }
   h1{
     text-align: center;
-    background-color: rgb(243, 242, 242);
   }
-footer{
-  background-color: rgb(206, 99, 255);
-  margin: 0%;
-  padding: 0%;
-}
