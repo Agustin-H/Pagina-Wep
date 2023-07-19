@@ -11,9 +11,7 @@ footer{
   background-color: blueviolet;
   border-color: rgb(0, 0, 0);
 }
-.button{
-  background-color: blueviolet;
-}
+
 .publicidad{
 justify-self: center;
 padding: 5px;
@@ -63,3 +61,6 @@ h6{
   h1{
     text-align: center;
   }
+  .nav-link:hover{
+  background-color: rgb(246, 177, 255);
+}
