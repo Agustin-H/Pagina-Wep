@@ -15,59 +15,108 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-dark fixed-top bg-body-primary">
+    <nav class="navbar navbar-expand-lg bg-body-secundary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <h2>Mundo Movil</h2>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-          aria-labelledby="offcanvasDarkNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-              aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../page/productos.html">Telefonos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../page/accesorios.html">Accesorios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../page/servicio-tecnico.html">Servicio Tecnico</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../page/nosotros.html">Nosotros</a>
-              </li>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="./index.html"><h1>MundoMovil</h1></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../page/productos.html">Telefonos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../page/accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../page/servicio-tecnico.html">Servicio Tecnico</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../page/nosotros.html">Nosotros</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="¿Que estas buscando?" placeholder="¿Que estas buscando?" aria-label="¿Que estas buscando?">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
     </nav>
-    <br>
-    <br>
   </header>
 
   <main>
-    <img src="../img/benefits.png" class="publicidad" alt="publicidad">
-
-    <nav class="navbar bg-body-secundary">
-      <div class="container-fluid">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="Qué estas buscando?" placeholder="Qué estas buscando?"
-            aria-label="Qué estas buscando?">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
+    <div class="container-fluid">
+      <img src="../img/1686686623447-main-sliderdesktopcelusultimo.jpg" class="img-fluid" alt="publicidad">
+    </div>
+    <br>
+    <H1>COMPRÁ POR MARCA</H1>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card h-70">
+          <img src="../img/apple.jpg" class="card-img-top" alt="iPhone">
+          <div class="card-body">
+            <h5 class="card-title">APPLE</h5>
+            <button type="button" class="btn btn-outline-success">VER MAS</button>
+          </div>
+        </div>
       </div>
-    </nav>
+      <div class="col">
+        <div class="card h-70">
+          <img src="../img/motorola.jpg" class="card-img-top" alt="IPhone">
+          <div class="card-body">
+            <h5 class="card-title">MOTOROLA</h5>
+            <button type="button" class="btn btn-outline-success">VER MAS</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="../img/samsung.jpg" class="card-img-top" alt="motorola-edge-30-ultra-256gb">
+          <div class="card-body">
+            <h5 class="card-title">SAMSUNG</h5>
+            <button type="button" class="btn btn-outline-success">VER MAS</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="../img/xiaomi.jpg" class="card-img-top"
+            alt="Xiaomi-Redmi-Note-12-128GB-8GB-RAM">
+          <div class="card-body">
+            <h5 class="card-title">XIAOMI</h5>
+            <button type="button" class="btn btn-outline-success">VER MAS</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="../img/zte.jpg" class="card-img-top" alt="samsung-galaxy-s23-ultra">
+          <div class="card-body">
+            <h5 class="card-title">ZTE</h5>
+            <button type="button" class="btn btn-outline-success">VER MAS</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="../img/tcl.jpg" class="card-img-top" alt="Samsung-Galaxy-S23-5G-256GB">
+          <div class="card-body">
+            <h5 class="card-title">TCL</h5>
+            <button type="button" class="btn btn-outline-success">VER MAS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h4>💫 LAS MEJORES OFERTAS 💫</h4>
     <br>
     <div class="row row-cols-1 row-cols-md-4 g-3">
       <div class="col">
@@ -166,7 +215,7 @@
     </div>
     <br>
     <div class="container-fluid">
-      <img src="../img/publicidad.jpg" class="img-fluid" alt="publicidad">
+      <img src="../img/D_NQ_NP_717048-MLA69841830736_062023-OO.jpg" class="img-fluid" alt="publicidad">
     </div>
     <br>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">

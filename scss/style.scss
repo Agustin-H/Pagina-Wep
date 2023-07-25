@@ -1,77 +1,98 @@
-*{margin: 0%;
+* {
+  margin: 0%;
   padding: 0%;
 }
-  body{
-    overflow-x: hidden;
-  }
-  main{
-    background-image: linear-gradient(rgb(206, 99, 255),  rgb(216, 195, 216));
-    margin: 0%;
-    padding: 0%;
-  }
-  header{
-    background-image: linear-gradient(rgb(206, 99, 255), rgb(216, 195, 216));
-    margin: 0%;
-    padding: 0%;
-  }
-  footer {
-      background-color: rgb(206, 99, 255);
-      margin: 0%;
-      padding: 0px;
-      width: 1500px;
-      display: flex;
-  }
-  h1{
-    text-align: center;
-  }
-  h4{
-    font-family:sans-serif;
-    margin: 10px;
-  }
-  h6{
-    text-align: center;
-    text-decoration: line-through;
-  }
-  p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-  }
-  .publicidad{
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  background-image: linear-gradient(rgb(234, 190, 255), rgb(255, 255, 255));
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-image: linear-gradient(rgb(222, 150, 255));
+  margin: 0%;
+  padding: 0%;
+}
+
+footer {
+  background-color: rgb(206, 99, 255);
+  margin: 0%;
+  padding: 0px;
+  width: 1500px;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+h6 {
+  text-align: center;
+  text-decoration: line-through;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.publicidad {
   justify-self: center;
   padding: 5px;
   margin: 25px;
-  }
-  .navbar {
-    background-color:(rgb(206, 99, 255));
-  }
-  .card-img{
-    width: 100px;
-  }
-  .card-title{
-    font-size: 30px;
-  }
-  .publicidadmp{
-    width: 1500px;
-    padding: 5px;
-    display: flex;
-  }
-  
-  .card-img-top{
-    height: 45vh;
-  }
-  .img-fluid{
-    padding: 1%;
-  
-  }
-  .parrafo-footer{
-    font-size: small;
-    color: rgb(255, 255, 255);
-  }
-  
-  .card{
-    background-color: black;
-  }
-    
-    .nav-link:hover{
-      background-image: linear-gradient(rgb(206, 99, 255), rgb(207, 171, 207)); background-color: rgb(234, 75, 255);
-  }
+}
+
+.navbar {
+  background-color: rgb(206, 99, 255);
+}
+
+.card-img {
+  width: 100px;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.publicidadmp {
+  width: 1500px;
+  padding: 5px;
+  display: flex;
+}
+
+.card-img-top {
+  height: 45vh;
+}
+
+.img-fluid {
+  padding: 1%;
+}
+
+.parrafo-footer {
+  font-size: small;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  background-color: black;
+}
+
+.nav-link:hover {
+  background-color: rgb(235, 198, 252);
+}
+
+.nav-link {
+  text-align: center;
+  justify-self: center;
+  display: flex;
+  grid-area: span;
+}

@@ -8,13 +8,13 @@ body {
 }
 
 main {
-  background-image: linear-gradient(rgb(206, 99, 255), rgb(216, 195, 216));
+  background-image: linear-gradient(rgb(234, 190, 255), rgb(255, 255, 255));
   margin: 0%;
   padding: 0%;
 }
 
 header {
-  background-image: linear-gradient(rgb(206, 99, 255), rgb(216, 195, 216));
+  background-image: linear-gradient(rgb(222, 150, 255));
   margin: 0%;
   padding: 0%;
 }
@@ -87,8 +87,14 @@ p {
 }
 
 .nav-link:hover {
-  background-image: linear-gradient(rgb(206, 99, 255), rgb(207, 171, 207));
-  background-color: rgb(234, 75, 255);
+  background-color: rgb(235, 198, 252);
+}
+
+.nav-link {
+  text-align: center;
+  justify-self: center;
+  display: flex;
+  grid-area: span;
 }
 
 /*# sourceMappingURL=style.css.map */
