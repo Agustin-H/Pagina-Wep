@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing:border-box;
 }
 
 body {
@@ -25,6 +26,10 @@ footer {
   padding: 0px;
   width: 1500px;
   display: flex;
+div{
+  justify-items: center;
+  text-align: center;
+}
 }
 
 h1 {
@@ -80,6 +85,7 @@ p {
 .parrafo-footer {
   font-size: small;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .card {
@@ -95,4 +101,14 @@ p {
   justify-self: center;
   display: flex;
   grid-area: span;
+}
+.redes{
+  align-items: center;
+}
+.fa-brands{
+  align-items: center;
+  display: flex;
+}
+.mundomovil{
+  color: rgb(255, 255, 255);
 }
